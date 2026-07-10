@@ -34,6 +34,10 @@ Please see the [project documentation](https://socketry.github.io/console/) for 
 
 Please see the [project releases](https://socketry.github.io/console/releases/index) for all releases.
 
+### v1.37.0
+
+  - Show compound units in elapsed time display.
+
 ### v1.36.0
 
   - Add a `size_limit` to `Console::Format::Safe` (default 16KiB) which rebuilds oversized records field-by-field, keeping as many top-level fields as fit within the limit.
@@ -75,10 +79,6 @@ Please see the [project releases](https://socketry.github.io/console/releases/in
 ### v1.29.2
 
   - Always return `nil` from `Console::Filter` logging methods.
-
-### v1.29.1
-
-  - Fix logging `exception:` keyword argument when the value was not an exception.
 
 ## Contributing
 

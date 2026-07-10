@@ -1,6 +1,6 @@
 # Releases
 
-## Unreleased
+## v1.37.0
 
   - Show compound units in elapsed time display.
 
